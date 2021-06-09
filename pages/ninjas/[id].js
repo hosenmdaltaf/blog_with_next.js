@@ -1,4 +1,5 @@
-// import Image from 'next/image'
+
+import Image from 'next/image'
 
 export const getStaticPaths = async () => {
   // const res = await fetch('https://jsonplaceholder.typicode.com/users');
@@ -34,10 +35,10 @@ const Details = ({ ninja }) => {
   return (
     <div>
       <h1>{ ninja.title }</h1>
-      {/* <Image src={ ninja.image }  alt="site logo" width={128} height={77} /> */}
+      <Image src={ ninja.image }  alt="site image"  width={1000} height={550} unoptimized={true} />
       <p>{ ninja.content }</p>
       
-      <p>{ ninja.author}</p>
+      {/* <p>{ ninja.author}</p> */}
 
       
     </div>

@@ -1,7 +1,15 @@
 
 
-module.exports = {
+// module.exports = {
+//     images: {
+//       domains: ['localhost']
+//     }
+//   }
+
+  module.exports = {
     images: {
-      domains: ['localhost']
-    }
+        domains: [
+          'https://altaf-blog-api.herokuapp.com/'
+        ],
+    },
   }

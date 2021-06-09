@@ -1,7 +1,16 @@
+
+
+import Link from 'next/link'; 
+
 const Footer = () => {
   return (
     <footer>
-      Copyright 2021 Ninja List
+      
+
+      <Link href="https://www.altafhosen.com/" passHref={true}>
+          <a >Copyright 2021 Hosen MD Altaf</a>
+      </Link>
+
     </footer>
   );
 }
