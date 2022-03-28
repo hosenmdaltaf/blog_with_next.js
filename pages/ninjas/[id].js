@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export const getStaticPaths = async () => {
   // const res = await fetch('https://jsonplaceholder.typicode.com/users');
-  const res = await fetch('https://altaf-blog-api.herokuapp.com/postList');
+  const res = await fetch('https://altaf-blog-api.herokuapp.com/');
 
   const data = await res.json();
 
