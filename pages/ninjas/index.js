@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const getStaticProps = async () => {
   // const res = await fetch('https://jsonplaceholder.typicode.com/users');
-  const res = await fetch('https://altaf-blog-api.herokuapp.com/postList/');
+  const res = await fetch('https://altaf-blog-api.herokuapp.com/');
   const data = await res.json();
 
   return {
